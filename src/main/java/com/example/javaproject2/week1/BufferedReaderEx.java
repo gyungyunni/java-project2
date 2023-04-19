@@ -13,4 +13,6 @@ public class BufferedReaderEx {
         System.out.println("line1 = " + br.readLine());
         System.out.println("line2 = " + br.readLine());
     }
+
+
 }

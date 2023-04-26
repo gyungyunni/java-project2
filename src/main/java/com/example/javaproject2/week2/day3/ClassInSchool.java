@@ -4,5 +4,6 @@ public class ClassInSchool {
     Teacher teacher;
     int no;
     String teacherName;
-    Student[] students;
+    Student[] students ;
+
 }

@@ -15,7 +15,6 @@ public class ClassInSchoolTest {
         classInSchool.students[1] = new Student();
         classInSchool.students[1].name = "김민재";
 
-        System.out.println(classInSchool.teacher.name);
         System.out.printf("%d반 담임 선생님 성함은 %s입니다\n",classInSchool.no,classInSchool.teacher.name);
         System.out.printf("%d반 학생 이름은 %s, %s입니다",classInSchool.no, classInSchool.students[0].name,classInSchool.students[1].name);
     }

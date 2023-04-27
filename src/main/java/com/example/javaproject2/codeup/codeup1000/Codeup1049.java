@@ -7,7 +7,7 @@ public class Codeup1049 {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        boolean result = num1>num2;
+        boolean result = num1 > num2;
         if(result)
             System.out.println("1");
         else

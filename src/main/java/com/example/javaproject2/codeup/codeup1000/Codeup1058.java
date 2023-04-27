@@ -7,7 +7,7 @@ public class Codeup1058 {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        boolean result = num1 ==0 & num2==0;
+        boolean result = num1 == 0 & num2 == 0;
         if(result)
             System.out.println("1");
         else

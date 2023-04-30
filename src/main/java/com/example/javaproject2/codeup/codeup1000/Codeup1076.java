@@ -7,7 +7,8 @@ public class Codeup1076 {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char alp = str.charAt(0);
-        for(int i = 97; i <= (int)alp; i++)
-            System.out.printf("%c ",i);
+        for(int i = 97; i <= (int)alp; i++) {
+            System.out.printf("%c ", i);
+        }
     }
 }

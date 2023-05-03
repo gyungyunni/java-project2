@@ -3,7 +3,7 @@ package com.example.javaproject2.Programmers;
 import java.util.Arrays;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/181833
-// string 말고 int만 써서 풀어보기
+
 public class Solution7 {
     public static int[][] solution(int n) {
         int[][] answer = new int[n][n];

@@ -1,5 +1,6 @@
 package com.example.javaproject2.Programmers;
 // https://school.programmers.co.kr/learn/courses/30/lessons/181923
+// https://gyun-gyunni.tistory.com/77
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -12,7 +13,7 @@ public class Solution8 {
             int start = queries[i][0];
             int end = queries[i][1];
             int value = queries[i][2];
-            list.clear(); // clear the list before starting the inner loop
+            list.clear();
             for (int j = start; j <= end; j++) {
                 if (arr[j] > value) {
                     list.add(arr[j]);

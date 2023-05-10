@@ -1,4 +1,4 @@
-package com.example.javaproject2.week4.practice;
+package com.example.javaproject2.week4.day2practice;
 
 public class ComputerTest {
     public static void main(String[] args) {

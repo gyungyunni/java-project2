@@ -1,8 +1,7 @@
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 // https://school.programmers.co.kr/learn/courses/30/lessons/181922
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Solution9 {
     public static int[] solution(int[] arr, int[][] queries) {

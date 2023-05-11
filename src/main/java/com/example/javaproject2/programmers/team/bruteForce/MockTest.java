@@ -1,4 +1,4 @@
-package com.example.javaproject2.Programmers.team.bruteForce;
+package com.example.javaproject2.programmers.team.bruteForce;
 
 import java.util.ArrayList;
 import java.util.Arrays;

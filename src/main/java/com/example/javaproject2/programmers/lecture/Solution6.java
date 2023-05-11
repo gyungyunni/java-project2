@@ -1,4 +1,4 @@
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 
 import java.util.Arrays;
 

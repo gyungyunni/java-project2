@@ -1,6 +1,5 @@
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 // https://school.programmers.co.kr/learn/courses/30/lessons/181928
-import java.util.Arrays;
 
 public class Solution4 {
     public static int solution(int[] num_list) {

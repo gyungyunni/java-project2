@@ -1,4 +1,4 @@
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 //https://school.programmers.co.kr/learn/courses/30/lessons/12943
 //https://gyun-gyunni.tistory.com/71
 class Solution1 {

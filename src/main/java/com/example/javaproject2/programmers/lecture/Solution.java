@@ -1,6 +1,6 @@
 // https://gyun-gyunni.tistory.com/70 자세한 풀이는 티스토리에 올려둠
 // [프로그래머스 / 1차] 비밀지도
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 import java.util.Arrays;
 
 class Solution {

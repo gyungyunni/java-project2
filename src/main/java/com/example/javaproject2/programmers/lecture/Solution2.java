@@ -1,10 +1,9 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/138477
 // https://gyun-gyunni.tistory.com/72
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class Solution2 {
     public static int[] solution(int k, int[] score) {

@@ -1,4 +1,4 @@
-package com.example.javaproject2.Programmers.team.bruteForce;
+package com.example.javaproject2.programmers.team.bruteForce;
 
 public class Rectangle {
     public static int solution(int[][] sizes) {

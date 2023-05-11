@@ -1,4 +1,4 @@
-package com.example.javaproject2.Programmers.lecture;
+package com.example.javaproject2.programmers.lecture;
 // https://school.programmers.co.kr/learn/courses/30/lessons/181930
 public class Solution3 {
     public static int solution(int a, int b, int c) {

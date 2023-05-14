@@ -11,7 +11,7 @@ public class HashSetTest {
         hashSet.add(new String("캡틴아메리카"));
         hashSet.add(new String("헐크"));
         hashSet.add(new String("토르"));
-        hashSet.add(new String("블랙위도우"));
+        hashSet.add(new String("토르"));
 
         System.out.println(hashSet);
     }

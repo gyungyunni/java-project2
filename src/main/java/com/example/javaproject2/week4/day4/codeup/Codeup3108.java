@@ -8,30 +8,32 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-class Student{
-    private String code;
-    private String testId;
-    private String name;
-
-    public Student(String code, String testId, String name){
-        this.code = code;
-        this.testId = testId;
-        this.name = name;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public String getTestId() {
-        return testId;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
 public class Codeup3108 {
+    public static boolean isContained(int id){
+        for (int i = 0; i < studentList.size(); i++){
+            if (studentList.get(i).id == id) return true;
+        }
+        return false;
+    }
+    public static class Student {
+        int id;
+        String code;
+        String name;
+    }
+    public static void executeCode(Student input){
+        if (input.code.charAt(0) == 'I' && !isContained(input.id)){
+            studentList.add(input);
+        }
+        else if (input.code.charAt(0) == 'D'){
+            for (int i = 0; i < studentList.size(); i++){
+                if (studentList.get(i).id == input.id) {
+                    studentList.remove(i);
+                    break;
+                }
+            }
+        }
+    }
+
     static List<Student> studentList;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -68,30 +70,5 @@ public class Codeup3108 {
 
             System.out.println(studentList.get(findIndex).id + " " +studentList.get(findIndex).name);
         }
-    }
-
-    public static void executeCode(Student input){
-        if (input.code.charAt(0) == 'I' && !isContained(input.id)){
-            studentList.add(input);
-        }
-        else if (input.code.charAt(0) == 'D'){
-            for (int i = 0; i < studentList.size(); i++){
-                if (studentList.get(i).id == input.id) {
-                    studentList.remove(i);
-                    break;
-                }
-            }
-        }
-    }
-    public static boolean isContained(int id){
-        for (int i = 0; i < studentList.size(); i++){
-            if (studentList.get(i).id == id) return true;
-        }
-        return false;
-    }
-    public static class Student {
-        int id;
-        String code;
-        String name;
     }
 }

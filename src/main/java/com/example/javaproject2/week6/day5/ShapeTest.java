@@ -1,10 +1,5 @@
-package com.example.javaproject2.week7.day5;
+package com.example.javaproject2.week6.day5;
 
-
-import java.util.ArrayList;
-import java.util.List;
-import javax.swing.text.html.HTMLDocument;
-import java.util.Iterator;
 
 public class ShapeTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.javaproject2.week7.day5;
+package com.example.javaproject2.week6.day5;
 
 public class AnimalTest {
     public static void main(String[] args) {
